@@ -1,0 +1,28 @@
+{
+    "projects":[
+        {
+           "liveSite": "https://mellifluous-gumdrop-aef3b9.netlify.app/",
+           "gitRepo":"https://github.com/Anish22prakash/Nykaa",
+           "title":"Nykaa clone",
+           "description":"Nykaa is an Indian e-commerce company which sells beauty, wellne and fitness products across websites",
+           "techStack":"Tech stack used:HTML, CSS and JavaScript",
+           "imageSrc":"./Images/nykaa_clone.jpg"
+        },
+        {
+            "liveSite": "https://taupe-sopapillas-55edd5.netlify.app/",
+            "gitRepo":"https://github.com/janakigouda/spotless-wing-656",
+            "title":"Big Basket clone",
+            "description":"Big basket is an Indian online grocery delivery service which delivers grocery goods of home essentials and food supplies to its customers.",
+            "techStack":"Tech stack used:HTML, CSS and JavaScript",
+            "imageSrc":"./Images/big_basket_clone.jpg"
+         },
+         {
+            "liveSite": "https://gilded-axolotl-233746.netlify.app/",
+            "gitRepo":"https://github.com/itsDipaks/NordStrom.com",
+            "title":"Nordstrom clone",
+            "description":"Nordstrom is an American luxury department store chain.",
+            "techStack":"Tech stack used:HTML, CSS and JavaScript",
+            "imageSrc":"./Images/nordstrom_clone.jpg"
+         }
+    ]
+}

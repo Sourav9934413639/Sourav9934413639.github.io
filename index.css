@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+hr{
+    background:none;
+    background-color:grey;
+    width: 90%;
+    height: 2px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+label #menu,#cross{
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+nav #check{
+    display: none;
+}
+nav main a:hover,a.active{
+    opacity: 0.6;
+}
+
+nav h1{
+    font-family: 'Love Light', cursive;
+    font-size: 4rem;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    position:sticky;
+    top: 0;
+    height: 8vh;
+}
+nav>main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+nav>main div{
+    font:500 1.2rem arial;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    
+}
+section{
+    min-height:108vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+section h1{
+    padding: 1rem 0;
+    margin: 3rem auto;
+    text-align: center;
+    border-bottom: 5px solid black;
+    font-size: 3rem;
+    width: 30%;
+}
+#home_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url('./Images/home_image.jpg') center/cover no-repeat; */
+    height: 100vh; 
+  }
+  
+  #intro {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    width: 70%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+  }
+  #intro>div{
+    font-size: 25px;
+    font-weight: 900;
+  }
+  #intro div:last-child{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  #intro div:last-child button{
+    letter-spacing: 2px;
+    font-weight: 900;
+  }
+  #intro a {
+    color: black; 
+    text-decoration: none; 
+  }
+  
+  #intro button {
+    background-color: white; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #intro button:hover {
+    background-color:black; 
+    color: white;
+
+  }
+
+#home_section #cursor{
+    animation: blink 1s linear infinite;
+}
+@keyframes blink{
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity:0%;
+    }
+}
+
+#about_section{
+    justify-content: center;
+}
+#about_section>div{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;  
+}
+#about_section>div>div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about_section #profile_block article{
+    width:50%;
+    height:45%;
+    border-radius: 30px 0 30px 0;
+}
+#about_section img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 0 30px 0;
+}
+#about_section #about{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+#about_section #about>div{
+    width: 80%;
+    
+}
+#about_section #about>div article{
+    text-align: justify;
+}
+#about_section #about>div>div{
+    display: flex;
+    margin-bottom: 1rem;  
+}
+#about_section h1{
+    margin: 1rem 0;
+    text-align: start;
+}
+#skills_section>div:first-child{
+    display: flex;
+    justify-content: center;
+}
+#skills_section h1{
+   text-align: center;
+}
+#skills_section #logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+}
+#skills_section #logo>div{
+   width: 15%;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  
+}
+#skills_section>div>div>img{
+    height: 100%;
+    width: 100%;
+}
+
+#projects_section>div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+#projects_section>div>div:last-child{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding-bottom: 2rem;
+}
+#projects_section .project{
+    width: 32%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 0.5rem;
+}
+#projects_section .p_img{
+    height: 30vh;
+}
+#projects_section img{
+    width: 100%;
+    height: 100%;
+}
+#projects_section h3{
+    padding-bottom: 0.5rem;
+}
+#projects_section .desc,.tech{
+    color: grey;
+    padding: 0.5rem 0;
+    
+}
+#projects_section .ext_site{
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+#projects_section button{
+    padding: 0.5rem 1rem;
+    border: 2px solid green;
+    background-color: white;
+}
+#projects_section .project button>a{
+    text-decoration: none;
+    color:green;
+    cursor: pointer;
+}
+#projects_section .project button:hover{
+    background-color: green;
+    border: 0;
+}
+#projects_section .project button:hover a{
+    color: white;
+}
+#contact_section{
+    justify-content: center;
+}
+#contact_section>div{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+#contact_section h3{
+    text-align: center;
+}
+#contact_section>div>h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#contact{
+    width: 20%;
+    place-self: center;
+    margin-top: 1rem;
+}
+#contact>div{
+    width:15% ;
+    margin: auto;
+
+}
+#contact>div img{
+    width: 100%;
+    height: 2rem;
+    object-fit: contain;
+}
+
+@media only screen and (max-width:1350px){
+    body{
+        letter-spacing: 0;
+        word-spacing: 0;
+    }
+    nav h1{
+    
+        font-size: 2rem;
+    }
+    #about_section>div{
+        flex-direction: column;
+    }
+    #contact_section h1{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:960px){
+    #skills_section #logo{
+        gap: 2rem;
+    }
+    #skills_section #logo>div{
+        width: 35%;
+    }
+    #projects_section>div>div{
+       
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #projects_section .project{
+        width: 90%;
+        
+    }
+}
+@media only screen and (max-width:650px){
+    body h1{
+        font-size: 1.5rem;
+    }
+    #about_section #about article{
+        text-align: left;
+    }
+   
+    #contact_section #contact{
+        width: 40%;
+    }
+    #intro {
+        max-width: 90%;
+        padding: 10px; 
+      }
+    
+      #intro div {
+        font-size: 18px; 
+      }
+      #intro button {
+        font-size: 14px; 
+      }
+    
+    nav #menu{
+        display: block;
+        font-size: 20px;
+        
+    }
+    nav main{
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        top:-108vh;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 3rem 0;
+        transition: all 0.5s;
+    }
+    nav main div{
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    #check:checked~main{
+        top: 8vh;
+    }
+    #check:checked~label #menu{
+        display: none;
+    }
+    
+    #check:checked~label #cross{
+        display: block;
+    }
+   
+   
+    
+}
+@media screen and (max-width: 480px) {
+    #intro {
+        max-width: 95%; 
+        padding: 5px; 
+      }
+    
+      #intro div {
+        font-size: 14px; 
+      }
+    
+      #intro button {
+        font-size: 12px; 
+      }
+  }
+@media only screen and (max-width:340px){
+    #skills_section #logo{
+        gap: 2rem;
+    }
+    #skills_section #logo>div{
+        width: 80%;
+    }
+}
+
+  
+  
+  
+  

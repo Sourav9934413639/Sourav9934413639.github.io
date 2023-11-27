@@ -251,15 +251,18 @@ section h1{
     padding: 0.5rem 1rem;
     border: 2px solid green;
     background-color: white;
+    transition: all 0.5s ease-in-out;
 }
 #projects_section .project button>a{
     text-decoration: none;
     color:green;
     cursor: pointer;
+
 }
 #projects_section .project button:hover{
     background-color: green;
-    border: 0;
+    border: 2px solid green;
+    border: none;
 }
 #projects_section .project button:hover a{
     color: white;

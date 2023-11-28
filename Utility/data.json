@@ -12,16 +12,16 @@
         "liveSite": "https://youtube-rho-three.vercel.app/",
         "gitRepo":"https://github.com/Sourav9934413639/Youtube",
         "title":"Youtube clone",
-        "description":"This is a clone of youtube app built using react with the help of material UI",
+        "description":"This is a clone of youtube app built using react with the help of material UI.",
         "techStack":"Tech stack used:HTML, CSS, JavaScript, React and Material UI",
         "imageSrc":"./Images/Youtube.png"
        },
        {
-          "liveSite": "",
+          "liveSite": "https://payment-gateway-integration-client.vercel.app/",
           "gitRepo":"https://github.com/Sourav9934413639/Payment-Gateway-Integration",
           "title":"Payment gateway integration ",
-          "description":"This is an application with razorpay integrated to it making users to puchase products.",
-          "techStack":"Tech stack used:HTML, CSS and JavaScript",
+          "description":"This is an application with razorpay integrated to it making users to purchase products.",
+          "techStack":"Tech stack used:HTML, CSS, JavaScript, React , Node, Express, MongoDB",
           "imageSrc":"./Images/Payment.png"
        }
    ]

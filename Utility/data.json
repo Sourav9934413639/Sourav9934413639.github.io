@@ -1,5 +1,13 @@
 {
    "projects":[
+      {
+         "liveSite": "https://helperhub-services.netlify.app/",
+         "gitRepo":"https://github.com/Sourav9934413639/HelperHub-client",
+         "title":"Helperhub-services app",
+         "description":"This is a complete mern stack app with admin panel to cater services to our clients such as cook, house maid servants and many more to ease thier work-life balance.",
+         "techStack":"Tech stack used:HTML, Material UI, JavaScript, React, Redux , Node, Express, MongoDB, REST Api's, JWT Authentication",
+         "imageSrc":"./Images/Helperhub-Project-Image.jpg"
+      },
        {
           "liveSite": "https://react-cart-page-rose.vercel.app/",
           "gitRepo":"https://github.com/Sourav9934413639/React-Cart-Page",

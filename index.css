@@ -209,7 +209,12 @@ section h1{
     height: 100%;
     width: 100%;
 }
-
+#experience_section #experience_container{
+    display:flex;
+    width:80vw;
+    margin:auto;
+    justify-content: center;
+}
 #projects_section>div{
     display: flex;
     flex-direction: column;
